@@ -15,11 +15,15 @@ export const DarkText = styled(LightText)`
     color: #02010F;
 `;
 
-export const SubTitle = styled.h2`
+export const LightSubTitle = styled.h2`
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 64px;
     line-height: 80px;
     text-align: left;
     color: #FFFFFF;
+`;
+
+export const DarkSubTitle = styled(LightSubTitle)`
+    color: #02010F;
 `;

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeroSection = styled.section`
     width: 100%;
-    height: 685px;
+    min-height: 685px;
     background-color: #02010F;
     padding: 73px 112px 60px 112px;
     display: flex;
