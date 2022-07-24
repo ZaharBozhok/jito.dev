@@ -20,17 +20,6 @@ export const Title = styled.h1`
     margin-bottom: 16px;
 `;
 
-export const SubTitle = styled.h4`
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    color: #FFFFFF;
-    width: 534px;
-    margin-bottom: 40px;
-`;
-
 export const Button = styled.button`
     border: none;
     width: 185px;
