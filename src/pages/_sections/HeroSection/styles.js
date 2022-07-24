@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import model from '../../../assets/images/3d.png';
 
 export const HeroSection = styled.section`
     width: 100%;
@@ -8,6 +9,24 @@ export const HeroSection = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 362px;
+        height: 461px;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: no-repeat center/cover url(${model});
+        z-index: 1;
+    }
+
+    & * {
+        position: relative;
+        z-index: 5; 
+    }
 `;
 
 export const Title = styled.h1`
