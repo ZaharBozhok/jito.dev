@@ -7,7 +7,6 @@ export const Header = styled.header`
     display: flex;
     justify-content: space-between;
     padding: 24px;
-    box-sizing: border-box;
     align-items: center;
 `;
 
