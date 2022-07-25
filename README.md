@@ -1,2 +1,3 @@
-# shevelevdesign.github.io
-Мой сайт
+# Jito website
+
+Website for Jito company
